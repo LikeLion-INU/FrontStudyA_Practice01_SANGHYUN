@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="Calculator.css">  <!--CSS 파일 불러오기-->
+</head>
+<body>
+  <h1>🎲<u>Caculator</u>🎲</h1>  <!--제목-->
+  <div class="container">
+    <div id="display">0</div>  <!--결과 표시 영역-->
+    <!--숫자 버튼-->
+    <div class="nums">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>0</button>
+    </div>
+    <!--연산자 버튼-->
+    <div class="operators">
+      <button>+</button>
+      <button>-</button>
+      <button>*</button>
+      <button>/</button>
+    </div>
+    <!--'=', 'C' 버튼-->
+    <button id="equals" style="background-color: rgb(48, 177, 206);">=</button>
+    <button id="clear" style="background-color: rgb(184, 81, 30);">C</button>
+  </div>
+  <script src="Calculator.js"></script>  <!--JS 파일 불러오기-->
+</body>
+</html>

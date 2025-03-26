@@ -1,0 +1,37 @@
+h2  /* 제목 속성 */
+{
+  margin-top: 100px;
+  margin-bottom: 5px;
+}
+
+.container  /* 전체 구조 속성 */
+{
+  display: flex;  
+  flex-direction: column;
+  align-items: center;      
+  justify-content: center;  
+  font-size: 40px;
+  margin: auto;       
+}
+
+#display  /* 시간 표시 영역 속성 */
+{
+  background-color: rgb(191, 219, 229);
+  padding: 20px 70px;   /* 사이 여백 늘림 */
+  border-radius: 10px;  /* 버튼 테두리 둥글게 */
+  
+}
+
+button  /* 버튼들 공통 속성 */
+{
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;   /* 버튼 안쪽 여백(크기) */
+  min-width: 130px;     /* 버튼 최소 사이즈 */
+  border: none;         /* 버튼 테두리 제거 */
+  border-radius: 80px;  /* 디스플레이 테두리 둥글게 */
+  cursor: pointer;      /* 마우스를 올렸을 때 커서 모양 변경 */
+}
+
+

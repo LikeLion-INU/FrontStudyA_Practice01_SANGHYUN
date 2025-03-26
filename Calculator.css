@@ -1,0 +1,68 @@
+h1  /* 제목 속성 */
+{
+  font-size: 50px;
+  text-align: center;    /* 가운데 정렬 */
+}
+
+.container  /* 전체 구조 속성 */
+{
+  background-color: rgb(15, 48, 81);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 290px;            /* 가로 최대 길이 줄임 (테두리를 위해) */
+  margin: auto;                /* 가운데 정렬 */
+  padding: 20px;               /* 사이 여백 늘림 */
+  border: solid;               /* 경계선 표시 */
+  border-radius: 20px;         /* 경계선 둥글게 */
+}
+
+#display  /* 결과 표시 영역 속성 */
+{
+  width: 250px;
+  height: 56px;
+  background-color: rgb(30, 27, 74);
+  color: white;
+  font-size: 40px;
+  text-align: right;            /* 결과값 오른쪽 정렬 */
+  padding: 10px;                /* 사이 여백 늘림 */
+  border-radius: 10px;          /* 테두리 둥글게 */
+  margin-bottom: 20px;          /* 아래 여백 늘림 */
+  overflow: hidden;             /* 넘치는 텍스트 잘라냄 */
+  text-overflow: ellipsis;      /* 너무 길면 "..." 표시 */
+}
+
+button  /* 버튼들 공통 속성 */
+{
+  color: white;
+  background-color: rgb(100, 121, 145);
+  font-size: larger;
+  border-radius: 100px;  /* 버튼 테두리 둥글게 */
+  cursor: pointer;       /* 마우스를 올렸을 때 커서 모양 변경 */
+}
+
+.nums  /* 숫자 버튼 속성 */
+{
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  height: 250px;
+  gap: 9px;
+}
+
+.operators  /* 연산자 버튼 속성 */
+{
+  display: grid;
+  grid-template-columns: repeat(4, 55px);
+  height: 50px;
+  gap: 10px;
+  padding: 10px;  /* 사이 여백 늘림 */
+}
+
+#equals, #clear  /* '=', 'C' 버튼 속성 */
+{
+  width: 250px;
+  height: 50px;
+  margin: 5px;  /* 상하 여백 늘림 */
+}
+
