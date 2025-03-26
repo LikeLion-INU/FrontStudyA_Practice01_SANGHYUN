@@ -48,3 +48,5 @@ function reset()
   clearInterval(timer);  // 기록 멈추기
   document.getElementById("display").innerText = "00:00:00"; // 초기값으로 변경
 }
+
+// 수정 테스트 각주
