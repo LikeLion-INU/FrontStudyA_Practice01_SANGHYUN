@@ -22,7 +22,7 @@ function start()
 
       // 시분초 계산
       let hours = Math.floor(totalSeconds / 3600);
-      let minutes = Math.floor(totalSeconds / 60);
+      let minutes = Math.floor((totalSeconds) % 3600 / 60);
       let seconds = totalSeconds % 60;
 
       // 문자열로 변환 (00:00:00 형식으로 써주기 위해)
